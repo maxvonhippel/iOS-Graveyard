@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oQ6-jw-CDC">
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                                <items>
+                                    <barButtonItem title="Add Aircraft to List" id="Evb-FR-akM">
+                                        <connections>
+                                            <action selector="AddAircraft:" destination="BYZ-38-t0r" id="toQ-Vd-g3W"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="UB6-CK-eb3">
+                                <rect key="frame" x="0.0" y="28" width="600" height="528"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="oQ6-jw-CDC" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="2TN-ip-05r"/>
+                            <constraint firstItem="UB6-CK-eb3" firstAttribute="bottom" secondItem="oQ6-jw-CDC" secondAttribute="top" id="3Js-rM-Umg"/>
+                            <constraint firstItem="UB6-CK-eb3" firstAttribute="trailing" secondItem="oQ6-jw-CDC" secondAttribute="trailing" id="Dii-eP-GR0"/>
+                            <constraint firstAttribute="trailing" secondItem="UB6-CK-eb3" secondAttribute="trailing" id="FKY-wk-phv"/>
+                            <constraint firstItem="UB6-CK-eb3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="KLd-uM-Xdr"/>
+                            <constraint firstItem="UB6-CK-eb3" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="fqm-5t-POz"/>
+                            <constraint firstItem="UB6-CK-eb3" firstAttribute="leading" secondItem="oQ6-jw-CDC" secondAttribute="leading" id="hpO-VS-IVF"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="aircraftTable" destination="UB6-CK-eb3" id="sBJ-eE-4zZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="354"/>
+        </scene>
+    </scenes>
+</document>

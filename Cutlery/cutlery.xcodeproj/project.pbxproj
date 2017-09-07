@@ -1,0 +1,725 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA07B6751D6FFCEA005C0FB3 /* OwnWantStyleKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DA07B6741D6FFCEA005C0FB3 /* OwnWantStyleKit.m */; };
+		DA07B6781D6FFCFE005C0FB3 /* OwnWantView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA07B6771D6FFCFE005C0FB3 /* OwnWantView.m */; };
+		DA07B67D1D70198C005C0FB3 /* WebSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA07B67C1D70198C005C0FB3 /* WebSearchViewController.m */; };
+		DA4A652E1D72BD2100F308BE /* BladeLengthView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4A652D1D72BD2100F308BE /* BladeLengthView.m */; };
+		DA4A65311D72BD3B00F308BE /* BladeLengthStyleKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4A65301D72BD3B00F308BE /* BladeLengthStyleKit.m */; };
+		DA4F89961D669053007A5D27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4F89951D669053007A5D27 /* main.m */; };
+		DA4F89991D669053007A5D27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4F89981D669053007A5D27 /* AppDelegate.m */; };
+		DA4F899C1D669053007A5D27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4F899B1D669053007A5D27 /* ViewController.m */; };
+		DA4F899F1D669053007A5D27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA4F899D1D669053007A5D27 /* Main.storyboard */; };
+		DA4F89A11D669053007A5D27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA4F89A01D669053007A5D27 /* Assets.xcassets */; };
+		DA4F89A41D669053007A5D27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA4F89A21D669053007A5D27 /* LaunchScreen.storyboard */; };
+		DA4F89AF1D669053007A5D27 /* cutleryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4F89AE1D669053007A5D27 /* cutleryTests.m */; };
+		DA4F89BA1D669053007A5D27 /* cutleryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4F89B91D669053007A5D27 /* cutleryUITests.m */; };
+		DA4F89C91D66912F007A5D27 /* Knife.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4F89C81D66912F007A5D27 /* Knife.m */; };
+		DA5509931D6D6F1D00650ACA /* KnifeStyleKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5509921D6D6F1D00650ACA /* KnifeStyleKit.m */; };
+		DA5509A71D6D80D600650ACA /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = DA5509941D6D80D600650ACA /* Icon-60.png */; };
+		DA5509A81D6D80D600650ACA /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA5509951D6D80D600650ACA /* Icon-60@2x.png */; };
+		DA5509A91D6D80D600650ACA /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA5509961D6D80D600650ACA /* Icon-60@3x.png */; };
+		DA5509AA1D6D80D600650ACA /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = DA5509971D6D80D600650ACA /* Icon-72.png */; };
+		DA5509AB1D6D80D600650ACA /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA5509981D6D80D600650ACA /* Icon-72@2x.png */; };
+		DA5509AC1D6D80D600650ACA /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = DA5509991D6D80D600650ACA /* Icon-76.png */; };
+		DA5509AD1D6D80D600650ACA /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA55099A1D6D80D600650ACA /* Icon-76@2x.png */; };
+		DA5509AE1D6D80D600650ACA /* Icon-76@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA55099B1D6D80D600650ACA /* Icon-76@3x.png */; };
+		DA5509AF1D6D80D600650ACA /* Icon-iPadPro@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA55099C1D6D80D600650ACA /* Icon-iPadPro@2x.png */; };
+		DA5509B01D6D80D600650ACA /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = DA55099D1D6D80D600650ACA /* Icon-Small-50.png */; };
+		DA5509B11D6D80D600650ACA /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA55099E1D6D80D600650ACA /* Icon-Small-50@2x.png */; };
+		DA5509B21D6D80D600650ACA /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = DA55099F1D6D80D600650ACA /* Icon-Small.png */; };
+		DA5509B31D6D80D600650ACA /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA5509A01D6D80D600650ACA /* Icon-Small@2x.png */; };
+		DA5509B41D6D80D600650ACA /* Icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA5509A11D6D80D600650ACA /* Icon-Small@3x.png */; };
+		DA5509B51D6D80D600650ACA /* Icon-Spotlight-40.png in Resources */ = {isa = PBXBuildFile; fileRef = DA5509A21D6D80D600650ACA /* Icon-Spotlight-40.png */; };
+		DA5509B61D6D80D600650ACA /* Icon-Spotlight-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA5509A31D6D80D600650ACA /* Icon-Spotlight-40@2x.png */; };
+		DA5509B71D6D80D600650ACA /* Icon-Spotlight-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA5509A41D6D80D600650ACA /* Icon-Spotlight-40@3x.png */; };
+		DA5509B81D6D80D600650ACA /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DA5509A51D6D80D600650ACA /* Icon.png */; };
+		DA5509B91D6D80D600650ACA /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA5509A61D6D80D600650ACA /* Icon@2x.png */; };
+		DA8757FF1D66B21600C60634 /* BladeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8757FE1D66B21600C60634 /* BladeViewController.m */; };
+		DA8758021D66BAB300C60634 /* MaterialsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8758011D66BAB300C60634 /* MaterialsViewController.m */; };
+		DA8758051D66D3F400C60634 /* FinalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8758041D66D3F400C60634 /* FinalViewController.m */; };
+		DA8758081D66DB1A00C60634 /* SavedKniveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8758071D66DB1A00C60634 /* SavedKniveViewController.m */; };
+		DA8758571D66EF7C00C60634 /* handle.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8758561D66EF7C00C60634 /* handle.m */; };
+		DA87585A1D677CB500C60634 /* SwitchBladeView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8758591D677CB500C60634 /* SwitchBladeView.m */; };
+		DAD2AE421D70E58500535411 /* MaterialStyleKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD2AE411D70E58500535411 /* MaterialStyleKit.m */; };
+		DAD2AE451D70E59B00535411 /* MaterialView.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD2AE441D70E59B00535411 /* MaterialView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA4F89AB1D669053007A5D27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA4F89891D669053007A5D27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA4F89901D669053007A5D27;
+			remoteInfo = cutlery;
+		};
+		DA4F89B61D669053007A5D27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA4F89891D669053007A5D27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA4F89901D669053007A5D27;
+			remoteInfo = cutlery;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA07B6731D6FFCEA005C0FB3 /* OwnWantStyleKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OwnWantStyleKit.h; sourceTree = "<group>"; };
+		DA07B6741D6FFCEA005C0FB3 /* OwnWantStyleKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OwnWantStyleKit.m; sourceTree = "<group>"; };
+		DA07B6761D6FFCFE005C0FB3 /* OwnWantView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OwnWantView.h; sourceTree = "<group>"; };
+		DA07B6771D6FFCFE005C0FB3 /* OwnWantView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OwnWantView.m; sourceTree = "<group>"; };
+		DA07B67B1D70198C005C0FB3 /* WebSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebSearchViewController.h; sourceTree = "<group>"; };
+		DA07B67C1D70198C005C0FB3 /* WebSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebSearchViewController.m; sourceTree = "<group>"; };
+		DA4A652C1D72BD2100F308BE /* BladeLengthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BladeLengthView.h; sourceTree = "<group>"; };
+		DA4A652D1D72BD2100F308BE /* BladeLengthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BladeLengthView.m; sourceTree = "<group>"; };
+		DA4A652F1D72BD3B00F308BE /* BladeLengthStyleKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BladeLengthStyleKit.h; sourceTree = "<group>"; };
+		DA4A65301D72BD3B00F308BE /* BladeLengthStyleKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BladeLengthStyleKit.m; sourceTree = "<group>"; };
+		DA4F89911D669053007A5D27 /* cutlery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cutlery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA4F89951D669053007A5D27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA4F89971D669053007A5D27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DA4F89981D669053007A5D27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DA4F899A1D669053007A5D27 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DA4F899B1D669053007A5D27 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DA4F899E1D669053007A5D27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA4F89A01D669053007A5D27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA4F89A31D669053007A5D27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA4F89A51D669053007A5D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA4F89AA1D669053007A5D27 /* cutleryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cutleryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA4F89AE1D669053007A5D27 /* cutleryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cutleryTests.m; sourceTree = "<group>"; };
+		DA4F89B01D669053007A5D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA4F89B51D669053007A5D27 /* cutleryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cutleryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA4F89B91D669053007A5D27 /* cutleryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cutleryUITests.m; sourceTree = "<group>"; };
+		DA4F89BB1D669053007A5D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA4F89C71D66912F007A5D27 /* Knife.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Knife.h; sourceTree = "<group>"; };
+		DA4F89C81D66912F007A5D27 /* Knife.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Knife.m; sourceTree = "<group>"; };
+		DA5509911D6D6F1D00650ACA /* KnifeStyleKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KnifeStyleKit.h; sourceTree = "<group>"; };
+		DA5509921D6D6F1D00650ACA /* KnifeStyleKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KnifeStyleKit.m; sourceTree = "<group>"; };
+		DA5509941D6D80D600650ACA /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60.png"; path = "App Icons/Icon-60.png"; sourceTree = SOURCE_ROOT; };
+		DA5509951D6D80D600650ACA /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60@2x.png"; path = "App Icons/Icon-60@2x.png"; sourceTree = SOURCE_ROOT; };
+		DA5509961D6D80D600650ACA /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60@3x.png"; path = "App Icons/Icon-60@3x.png"; sourceTree = SOURCE_ROOT; };
+		DA5509971D6D80D600650ACA /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "App Icons/Icon-72.png"; sourceTree = SOURCE_ROOT; };
+		DA5509981D6D80D600650ACA /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72@2x.png"; path = "App Icons/Icon-72@2x.png"; sourceTree = SOURCE_ROOT; };
+		DA5509991D6D80D600650ACA /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-76.png"; path = "App Icons/Icon-76.png"; sourceTree = SOURCE_ROOT; };
+		DA55099A1D6D80D600650ACA /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-76@2x.png"; path = "App Icons/Icon-76@2x.png"; sourceTree = SOURCE_ROOT; };
+		DA55099B1D6D80D600650ACA /* Icon-76@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-76@3x.png"; path = "App Icons/Icon-76@3x.png"; sourceTree = SOURCE_ROOT; };
+		DA55099C1D6D80D600650ACA /* Icon-iPadPro@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-iPadPro@2x.png"; path = "App Icons/Icon-iPadPro@2x.png"; sourceTree = SOURCE_ROOT; };
+		DA55099D1D6D80D600650ACA /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "App Icons/Icon-Small-50.png"; sourceTree = SOURCE_ROOT; };
+		DA55099E1D6D80D600650ACA /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50@2x.png"; path = "App Icons/Icon-Small-50@2x.png"; sourceTree = SOURCE_ROOT; };
+		DA55099F1D6D80D600650ACA /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "App Icons/Icon-Small.png"; sourceTree = SOURCE_ROOT; };
+		DA5509A01D6D80D600650ACA /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "App Icons/Icon-Small@2x.png"; sourceTree = SOURCE_ROOT; };
+		DA5509A11D6D80D600650ACA /* Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@3x.png"; path = "App Icons/Icon-Small@3x.png"; sourceTree = SOURCE_ROOT; };
+		DA5509A21D6D80D600650ACA /* Icon-Spotlight-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Spotlight-40.png"; path = "App Icons/Icon-Spotlight-40.png"; sourceTree = SOURCE_ROOT; };
+		DA5509A31D6D80D600650ACA /* Icon-Spotlight-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Spotlight-40@2x.png"; path = "App Icons/Icon-Spotlight-40@2x.png"; sourceTree = SOURCE_ROOT; };
+		DA5509A41D6D80D600650ACA /* Icon-Spotlight-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Spotlight-40@3x.png"; path = "App Icons/Icon-Spotlight-40@3x.png"; sourceTree = SOURCE_ROOT; };
+		DA5509A51D6D80D600650ACA /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = "App Icons/Icon.png"; sourceTree = SOURCE_ROOT; };
+		DA5509A61D6D80D600650ACA /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "App Icons/Icon@2x.png"; sourceTree = SOURCE_ROOT; };
+		DA8757FD1D66B21600C60634 /* BladeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BladeViewController.h; sourceTree = "<group>"; };
+		DA8757FE1D66B21600C60634 /* BladeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BladeViewController.m; sourceTree = "<group>"; };
+		DA8758001D66BAB300C60634 /* MaterialsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaterialsViewController.h; sourceTree = "<group>"; };
+		DA8758011D66BAB300C60634 /* MaterialsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaterialsViewController.m; sourceTree = "<group>"; };
+		DA8758031D66D3F400C60634 /* FinalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinalViewController.h; sourceTree = "<group>"; };
+		DA8758041D66D3F400C60634 /* FinalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinalViewController.m; sourceTree = "<group>"; };
+		DA8758061D66DB1A00C60634 /* SavedKniveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SavedKniveViewController.h; sourceTree = "<group>"; };
+		DA8758071D66DB1A00C60634 /* SavedKniveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SavedKniveViewController.m; sourceTree = "<group>"; };
+		DA8758551D66EF7C00C60634 /* handle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = handle.h; sourceTree = "<group>"; };
+		DA8758561D66EF7C00C60634 /* handle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = handle.m; sourceTree = "<group>"; };
+		DA8758581D677CB500C60634 /* SwitchBladeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchBladeView.h; sourceTree = "<group>"; };
+		DA8758591D677CB500C60634 /* SwitchBladeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchBladeView.m; sourceTree = "<group>"; };
+		DAD2AE401D70E58500535411 /* MaterialStyleKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaterialStyleKit.h; sourceTree = "<group>"; };
+		DAD2AE411D70E58500535411 /* MaterialStyleKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaterialStyleKit.m; sourceTree = "<group>"; };
+		DAD2AE431D70E59B00535411 /* MaterialView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaterialView.h; sourceTree = "<group>"; };
+		DAD2AE441D70E59B00535411 /* MaterialView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaterialView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA4F898E1D669053007A5D27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA4F89A71D669053007A5D27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA4F89B21D669053007A5D27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA07B6791D6FFEDF005C0FB3 /* StyleKits */ = {
+			isa = PBXGroup;
+			children = (
+				DA4A652F1D72BD3B00F308BE /* BladeLengthStyleKit.h */,
+				DA4A65301D72BD3B00F308BE /* BladeLengthStyleKit.m */,
+				DAD2AE401D70E58500535411 /* MaterialStyleKit.h */,
+				DAD2AE411D70E58500535411 /* MaterialStyleKit.m */,
+				DA07B6731D6FFCEA005C0FB3 /* OwnWantStyleKit.h */,
+				DA07B6741D6FFCEA005C0FB3 /* OwnWantStyleKit.m */,
+				DA5509911D6D6F1D00650ACA /* KnifeStyleKit.h */,
+				DA5509921D6D6F1D00650ACA /* KnifeStyleKit.m */,
+			);
+			name = StyleKits;
+			sourceTree = "<group>";
+		};
+		DA07B67A1D6FFEEF005C0FB3 /* NSObjects */ = {
+			isa = PBXGroup;
+			children = (
+				DA4F89C71D66912F007A5D27 /* Knife.h */,
+				DA4F89C81D66912F007A5D27 /* Knife.m */,
+			);
+			name = NSObjects;
+			sourceTree = "<group>";
+		};
+		DA4F89881D669053007A5D27 = {
+			isa = PBXGroup;
+			children = (
+				DA4F89931D669053007A5D27 /* cutlery */,
+				DA4F89AD1D669053007A5D27 /* cutleryTests */,
+				DA4F89B81D669053007A5D27 /* cutleryUITests */,
+				DA4F89921D669053007A5D27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA4F89921D669053007A5D27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA4F89911D669053007A5D27 /* cutlery.app */,
+				DA4F89AA1D669053007A5D27 /* cutleryTests.xctest */,
+				DA4F89B51D669053007A5D27 /* cutleryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA4F89931D669053007A5D27 /* cutlery */ = {
+			isa = PBXGroup;
+			children = (
+				DA5509BA1D6D80DA00650ACA /* App Icons */,
+				DA07B6791D6FFEDF005C0FB3 /* StyleKits */,
+				DA4F89971D669053007A5D27 /* AppDelegate.h */,
+				DA4F89981D669053007A5D27 /* AppDelegate.m */,
+				DA4F899A1D669053007A5D27 /* ViewController.h */,
+				DA4F899B1D669053007A5D27 /* ViewController.m */,
+				DA07B67A1D6FFEEF005C0FB3 /* NSObjects */,
+				DA4F899D1D669053007A5D27 /* Main.storyboard */,
+				DA07B67B1D70198C005C0FB3 /* WebSearchViewController.h */,
+				DA07B67C1D70198C005C0FB3 /* WebSearchViewController.m */,
+				DA8758061D66DB1A00C60634 /* SavedKniveViewController.h */,
+				DA8758071D66DB1A00C60634 /* SavedKniveViewController.m */,
+				DA8758001D66BAB300C60634 /* MaterialsViewController.h */,
+				DA8758011D66BAB300C60634 /* MaterialsViewController.m */,
+				DA8758031D66D3F400C60634 /* FinalViewController.h */,
+				DA8758041D66D3F400C60634 /* FinalViewController.m */,
+				DA8757FD1D66B21600C60634 /* BladeViewController.h */,
+				DA8757FE1D66B21600C60634 /* BladeViewController.m */,
+				DA4F89A01D669053007A5D27 /* Assets.xcassets */,
+				DA4F89A21D669053007A5D27 /* LaunchScreen.storyboard */,
+				DA4F89A51D669053007A5D27 /* Info.plist */,
+				DA4F89941D669053007A5D27 /* Supporting Files */,
+				DA87580C1D66EA2000C60634 /* Custom UIViews */,
+			);
+			path = cutlery;
+			sourceTree = "<group>";
+		};
+		DA4F89941D669053007A5D27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA4F89951D669053007A5D27 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA4F89AD1D669053007A5D27 /* cutleryTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA4F89AE1D669053007A5D27 /* cutleryTests.m */,
+				DA4F89B01D669053007A5D27 /* Info.plist */,
+			);
+			path = cutleryTests;
+			sourceTree = "<group>";
+		};
+		DA4F89B81D669053007A5D27 /* cutleryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA4F89B91D669053007A5D27 /* cutleryUITests.m */,
+				DA4F89BB1D669053007A5D27 /* Info.plist */,
+			);
+			path = cutleryUITests;
+			sourceTree = "<group>";
+		};
+		DA5509BA1D6D80DA00650ACA /* App Icons */ = {
+			isa = PBXGroup;
+			children = (
+				DA5509941D6D80D600650ACA /* Icon-60.png */,
+				DA5509951D6D80D600650ACA /* Icon-60@2x.png */,
+				DA5509961D6D80D600650ACA /* Icon-60@3x.png */,
+				DA5509971D6D80D600650ACA /* Icon-72.png */,
+				DA5509981D6D80D600650ACA /* Icon-72@2x.png */,
+				DA5509991D6D80D600650ACA /* Icon-76.png */,
+				DA55099A1D6D80D600650ACA /* Icon-76@2x.png */,
+				DA55099B1D6D80D600650ACA /* Icon-76@3x.png */,
+				DA55099C1D6D80D600650ACA /* Icon-iPadPro@2x.png */,
+				DA55099D1D6D80D600650ACA /* Icon-Small-50.png */,
+				DA55099E1D6D80D600650ACA /* Icon-Small-50@2x.png */,
+				DA55099F1D6D80D600650ACA /* Icon-Small.png */,
+				DA5509A01D6D80D600650ACA /* Icon-Small@2x.png */,
+				DA5509A11D6D80D600650ACA /* Icon-Small@3x.png */,
+				DA5509A21D6D80D600650ACA /* Icon-Spotlight-40.png */,
+				DA5509A31D6D80D600650ACA /* Icon-Spotlight-40@2x.png */,
+				DA5509A41D6D80D600650ACA /* Icon-Spotlight-40@3x.png */,
+				DA5509A51D6D80D600650ACA /* Icon.png */,
+				DA5509A61D6D80D600650ACA /* Icon@2x.png */,
+			);
+			name = "App Icons";
+			sourceTree = "<group>";
+		};
+		DA87580C1D66EA2000C60634 /* Custom UIViews */ = {
+			isa = PBXGroup;
+			children = (
+				DA4A652C1D72BD2100F308BE /* BladeLengthView.h */,
+				DA4A652D1D72BD2100F308BE /* BladeLengthView.m */,
+				DA8758551D66EF7C00C60634 /* handle.h */,
+				DA8758561D66EF7C00C60634 /* handle.m */,
+				DA8758581D677CB500C60634 /* SwitchBladeView.h */,
+				DA8758591D677CB500C60634 /* SwitchBladeView.m */,
+				DA07B6761D6FFCFE005C0FB3 /* OwnWantView.h */,
+				DA07B6771D6FFCFE005C0FB3 /* OwnWantView.m */,
+				DAD2AE431D70E59B00535411 /* MaterialView.h */,
+				DAD2AE441D70E59B00535411 /* MaterialView.m */,
+			);
+			name = "Custom UIViews";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA4F89901D669053007A5D27 /* cutlery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA4F89BE1D669053007A5D27 /* Build configuration list for PBXNativeTarget "cutlery" */;
+			buildPhases = (
+				DA4F898D1D669053007A5D27 /* Sources */,
+				DA4F898E1D669053007A5D27 /* Frameworks */,
+				DA4F898F1D669053007A5D27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cutlery;
+			productName = cutlery;
+			productReference = DA4F89911D669053007A5D27 /* cutlery.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA4F89A91D669053007A5D27 /* cutleryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA4F89C11D669053007A5D27 /* Build configuration list for PBXNativeTarget "cutleryTests" */;
+			buildPhases = (
+				DA4F89A61D669053007A5D27 /* Sources */,
+				DA4F89A71D669053007A5D27 /* Frameworks */,
+				DA4F89A81D669053007A5D27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA4F89AC1D669053007A5D27 /* PBXTargetDependency */,
+			);
+			name = cutleryTests;
+			productName = cutleryTests;
+			productReference = DA4F89AA1D669053007A5D27 /* cutleryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA4F89B41D669053007A5D27 /* cutleryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA4F89C41D669053007A5D27 /* Build configuration list for PBXNativeTarget "cutleryUITests" */;
+			buildPhases = (
+				DA4F89B11D669053007A5D27 /* Sources */,
+				DA4F89B21D669053007A5D27 /* Frameworks */,
+				DA4F89B31D669053007A5D27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA4F89B71D669053007A5D27 /* PBXTargetDependency */,
+			);
+			name = cutleryUITests;
+			productName = cutleryUITests;
+			productReference = DA4F89B51D669053007A5D27 /* cutleryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA4F89891D669053007A5D27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Max von Hippel";
+				TargetAttributes = {
+					DA4F89901D669053007A5D27 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 488NN6UZ2M;
+					};
+					DA4F89A91D669053007A5D27 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DA4F89901D669053007A5D27;
+					};
+					DA4F89B41D669053007A5D27 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DA4F89901D669053007A5D27;
+					};
+				};
+			};
+			buildConfigurationList = DA4F898C1D669053007A5D27 /* Build configuration list for PBXProject "cutlery" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA4F89881D669053007A5D27;
+			productRefGroup = DA4F89921D669053007A5D27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA4F89901D669053007A5D27 /* cutlery */,
+				DA4F89A91D669053007A5D27 /* cutleryTests */,
+				DA4F89B41D669053007A5D27 /* cutleryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA4F898F1D669053007A5D27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA5509AE1D6D80D600650ACA /* Icon-76@3x.png in Resources */,
+				DA5509A91D6D80D600650ACA /* Icon-60@3x.png in Resources */,
+				DA5509B61D6D80D600650ACA /* Icon-Spotlight-40@2x.png in Resources */,
+				DA5509B11D6D80D600650ACA /* Icon-Small-50@2x.png in Resources */,
+				DA4F89A41D669053007A5D27 /* LaunchScreen.storyboard in Resources */,
+				DA5509B91D6D80D600650ACA /* Icon@2x.png in Resources */,
+				DA5509AB1D6D80D600650ACA /* Icon-72@2x.png in Resources */,
+				DA5509A81D6D80D600650ACA /* Icon-60@2x.png in Resources */,
+				DA5509AF1D6D80D600650ACA /* Icon-iPadPro@2x.png in Resources */,
+				DA4F89A11D669053007A5D27 /* Assets.xcassets in Resources */,
+				DA5509B21D6D80D600650ACA /* Icon-Small.png in Resources */,
+				DA5509B51D6D80D600650ACA /* Icon-Spotlight-40.png in Resources */,
+				DA5509B71D6D80D600650ACA /* Icon-Spotlight-40@3x.png in Resources */,
+				DA5509B81D6D80D600650ACA /* Icon.png in Resources */,
+				DA5509B41D6D80D600650ACA /* Icon-Small@3x.png in Resources */,
+				DA5509A71D6D80D600650ACA /* Icon-60.png in Resources */,
+				DA5509B01D6D80D600650ACA /* Icon-Small-50.png in Resources */,
+				DA5509AA1D6D80D600650ACA /* Icon-72.png in Resources */,
+				DA4F899F1D669053007A5D27 /* Main.storyboard in Resources */,
+				DA5509B31D6D80D600650ACA /* Icon-Small@2x.png in Resources */,
+				DA5509AD1D6D80D600650ACA /* Icon-76@2x.png in Resources */,
+				DA5509AC1D6D80D600650ACA /* Icon-76.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA4F89A81D669053007A5D27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA4F89B31D669053007A5D27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA4F898D1D669053007A5D27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA4F899C1D669053007A5D27 /* ViewController.m in Sources */,
+				DA4A65311D72BD3B00F308BE /* BladeLengthStyleKit.m in Sources */,
+				DA4F89991D669053007A5D27 /* AppDelegate.m in Sources */,
+				DA8757FF1D66B21600C60634 /* BladeViewController.m in Sources */,
+				DA07B67D1D70198C005C0FB3 /* WebSearchViewController.m in Sources */,
+				DAD2AE451D70E59B00535411 /* MaterialView.m in Sources */,
+				DA4A652E1D72BD2100F308BE /* BladeLengthView.m in Sources */,
+				DA8758021D66BAB300C60634 /* MaterialsViewController.m in Sources */,
+				DA8758081D66DB1A00C60634 /* SavedKniveViewController.m in Sources */,
+				DA07B6781D6FFCFE005C0FB3 /* OwnWantView.m in Sources */,
+				DA5509931D6D6F1D00650ACA /* KnifeStyleKit.m in Sources */,
+				DA8758571D66EF7C00C60634 /* handle.m in Sources */,
+				DAD2AE421D70E58500535411 /* MaterialStyleKit.m in Sources */,
+				DA4F89961D669053007A5D27 /* main.m in Sources */,
+				DA4F89C91D66912F007A5D27 /* Knife.m in Sources */,
+				DA87585A1D677CB500C60634 /* SwitchBladeView.m in Sources */,
+				DA8758051D66D3F400C60634 /* FinalViewController.m in Sources */,
+				DA07B6751D6FFCEA005C0FB3 /* OwnWantStyleKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA4F89A61D669053007A5D27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA4F89AF1D669053007A5D27 /* cutleryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA4F89B11D669053007A5D27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA4F89BA1D669053007A5D27 /* cutleryUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA4F89AC1D669053007A5D27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA4F89901D669053007A5D27 /* cutlery */;
+			targetProxy = DA4F89AB1D669053007A5D27 /* PBXContainerItemProxy */;
+		};
+		DA4F89B71D669053007A5D27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA4F89901D669053007A5D27 /* cutlery */;
+			targetProxy = DA4F89B61D669053007A5D27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA4F899D1D669053007A5D27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA4F899E1D669053007A5D27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA4F89A21D669053007A5D27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA4F89A31D669053007A5D27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA4F89BC1D669053007A5D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA4F89BD1D669053007A5D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA4F89BF1D669053007A5D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = cutlery/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linkedandloaded.cutlery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DA4F89C01D669053007A5D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = cutlery/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linkedandloaded.cutlery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DA4F89C21D669053007A5D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = cutleryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linkedandloaded.cutleryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cutlery.app/cutlery";
+			};
+			name = Debug;
+		};
+		DA4F89C31D669053007A5D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = cutleryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linkedandloaded.cutleryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cutlery.app/cutlery";
+			};
+			name = Release;
+		};
+		DA4F89C51D669053007A5D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = cutleryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linkedandloaded.cutleryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = cutlery;
+			};
+			name = Debug;
+		};
+		DA4F89C61D669053007A5D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = cutleryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linkedandloaded.cutleryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = cutlery;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA4F898C1D669053007A5D27 /* Build configuration list for PBXProject "cutlery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA4F89BC1D669053007A5D27 /* Debug */,
+				DA4F89BD1D669053007A5D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA4F89BE1D669053007A5D27 /* Build configuration list for PBXNativeTarget "cutlery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA4F89BF1D669053007A5D27 /* Debug */,
+				DA4F89C01D669053007A5D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA4F89C11D669053007A5D27 /* Build configuration list for PBXNativeTarget "cutleryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA4F89C21D669053007A5D27 /* Debug */,
+				DA4F89C31D669053007A5D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA4F89C41D669053007A5D27 /* Build configuration list for PBXNativeTarget "cutleryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA4F89C51D669053007A5D27 /* Debug */,
+				DA4F89C61D669053007A5D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA4F89891D669053007A5D27 /* Project object */;
+}

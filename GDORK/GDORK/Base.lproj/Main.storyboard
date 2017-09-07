@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5nh-d0-b9S">
+                                <rect key="frame" x="0.0" y="28" width="600" height="528"/>
+                                <subviews>
+                                    <datePicker contentMode="scaleAspectFit" semanticContentAttribute="forceLeftToRight" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="YgZ-rq-Qny">
+                                        <rect key="frame" x="0.0" y="344" width="600" height="131"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="184" id="LUr-Bd-8c9"/>
+                                        </constraints>
+                                        <date key="date" timeIntervalSinceReferenceDate="493162184.12440801">
+                                            <!--2016-08-17 21:29:44 +0000-->
+                                        </date>
+                                    </datePicker>
+                                    <searchBar contentMode="redraw" placeholder="Must be this filetype (e.g, XLS)" translatesAutoresizingMaskIntoConstraints="NO" id="4Uf-pf-I3O">
+                                        <rect key="frame" x="0.0" y="308" width="600" height="44"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                                    </searchBar>
+                                    <searchBar contentMode="redraw" placeholder="Search this specific site" translatesAutoresizingMaskIntoConstraints="NO" id="vrE-9Q-BaB">
+                                        <rect key="frame" x="0.0" y="264" width="600" height="44"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                                    </searchBar>
+                                    <searchBar contentMode="redraw" placeholder="Most of these words in the title" translatesAutoresizingMaskIntoConstraints="NO" id="x4f-do-xjH">
+                                        <rect key="frame" x="0.0" y="220" width="600" height="44"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                                    </searchBar>
+                                    <searchBar contentMode="redraw" placeholder="All of these words in the title" translatesAutoresizingMaskIntoConstraints="NO" id="gxB-k9-O2j">
+                                        <rect key="frame" x="0.0" y="176" width="600" height="44"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                                    </searchBar>
+                                    <searchBar contentMode="redraw" placeholder="Most of these words in the URL" translatesAutoresizingMaskIntoConstraints="NO" id="aQ3-Oe-uf1">
+                                        <rect key="frame" x="0.0" y="132" width="600" height="44"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                                    </searchBar>
+                                    <searchBar contentMode="redraw" placeholder="All of these words in the URL" translatesAutoresizingMaskIntoConstraints="NO" id="CUM-5d-3cB">
+                                        <rect key="frame" x="0.0" y="88" width="600" height="44"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                                    </searchBar>
+                                    <searchBar contentMode="redraw" placeholder="Most of these words" translatesAutoresizingMaskIntoConstraints="NO" id="bRE-aF-JxC">
+                                        <rect key="frame" x="0.0" y="44" width="600" height="44"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                                    </searchBar>
+                                    <searchBar contentMode="redraw" placeholder="All of these words" translatesAutoresizingMaskIntoConstraints="NO" id="PpF-ya-wVm">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                                    </searchBar>
+                                    <datePicker contentMode="scaleAspectFit" semanticContentAttribute="forceLeftToRight" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="FdY-Mz-5XZ">
+                                        <rect key="frame" x="0.0" y="476" width="600" height="184"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="184" id="UUC-z5-Vdo"/>
+                                        </constraints>
+                                        <date key="date" timeIntervalSinceReferenceDate="493162221.34538001">
+                                            <!--2016-08-17 21:30:21 +0000-->
+                                        </date>
+                                    </datePicker>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="x4f-do-xjH" firstAttribute="trailing" secondItem="vrE-9Q-BaB" secondAttribute="trailing" id="2Ii-9j-WMk"/>
+                                    <constraint firstItem="YgZ-rq-Qny" firstAttribute="top" secondItem="vrE-9Q-BaB" secondAttribute="bottom" constant="36" id="2pW-e1-4b6"/>
+                                    <constraint firstItem="bRE-aF-JxC" firstAttribute="leading" secondItem="CUM-5d-3cB" secondAttribute="leading" id="6Gu-3B-tln"/>
+                                    <constraint firstItem="YgZ-rq-Qny" firstAttribute="leading" secondItem="FdY-Mz-5XZ" secondAttribute="leading" id="6Mb-3i-7Te"/>
+                                    <constraint firstItem="4Uf-pf-I3O" firstAttribute="top" secondItem="vrE-9Q-BaB" secondAttribute="bottom" id="6gJ-jt-cs2"/>
+                                    <constraint firstItem="bRE-aF-JxC" firstAttribute="trailing" secondItem="CUM-5d-3cB" secondAttribute="trailing" id="7m5-m2-hAJ"/>
+                                    <constraint firstItem="x4f-do-xjH" firstAttribute="leading" secondItem="vrE-9Q-BaB" secondAttribute="leading" id="91w-8d-8wc"/>
+                                    <constraint firstItem="gxB-k9-O2j" firstAttribute="top" secondItem="aQ3-Oe-uf1" secondAttribute="bottom" id="9Yu-Rb-UAo"/>
+                                    <constraint firstItem="bRE-aF-JxC" firstAttribute="top" secondItem="PpF-ya-wVm" secondAttribute="bottom" id="BcQ-0n-FJb"/>
+                                    <constraint firstItem="vrE-9Q-BaB" firstAttribute="top" secondItem="x4f-do-xjH" secondAttribute="bottom" id="E00-1K-ylL"/>
+                                    <constraint firstItem="PpF-ya-wVm" firstAttribute="centerX" secondItem="5nh-d0-b9S" secondAttribute="centerX" id="ES4-x8-HMe"/>
+                                    <constraint firstItem="aQ3-Oe-uf1" firstAttribute="trailing" secondItem="gxB-k9-O2j" secondAttribute="trailing" id="Jpe-2t-G5p"/>
+                                    <constraint firstItem="YgZ-rq-Qny" firstAttribute="trailing" secondItem="FdY-Mz-5XZ" secondAttribute="trailing" id="Nsg-YJ-BdU"/>
+                                    <constraint firstItem="CUM-5d-3cB" firstAttribute="top" secondItem="bRE-aF-JxC" secondAttribute="bottom" id="PhU-O0-d1d"/>
+                                    <constraint firstItem="PpF-ya-wVm" firstAttribute="top" secondItem="5nh-d0-b9S" secondAttribute="top" id="RGy-Av-vme"/>
+                                    <constraint firstItem="4Uf-pf-I3O" firstAttribute="trailing" secondItem="YgZ-rq-Qny" secondAttribute="trailing" id="SL9-Vi-Knb"/>
+                                    <constraint firstItem="vrE-9Q-BaB" firstAttribute="trailing" secondItem="4Uf-pf-I3O" secondAttribute="trailing" id="SUj-Pr-Ywm"/>
+                                    <constraint firstItem="aQ3-Oe-uf1" firstAttribute="top" secondItem="CUM-5d-3cB" secondAttribute="bottom" id="UX8-wi-5KM"/>
+                                    <constraint firstItem="CUM-5d-3cB" firstAttribute="trailing" secondItem="aQ3-Oe-uf1" secondAttribute="trailing" id="Wff-O2-wsg"/>
+                                    <constraint firstItem="CUM-5d-3cB" firstAttribute="leading" secondItem="aQ3-Oe-uf1" secondAttribute="leading" id="XHm-Gu-PZe"/>
+                                    <constraint firstItem="PpF-ya-wVm" firstAttribute="leading" secondItem="bRE-aF-JxC" secondAttribute="leading" id="XN9-nt-PLn"/>
+                                    <constraint firstItem="gxB-k9-O2j" firstAttribute="leading" secondItem="x4f-do-xjH" secondAttribute="leading" id="atN-Th-aOI"/>
+                                    <constraint firstItem="FdY-Mz-5XZ" firstAttribute="top" secondItem="YgZ-rq-Qny" secondAttribute="bottom" id="bHv-Oz-eyi"/>
+                                    <constraint firstAttribute="bottom" secondItem="FdY-Mz-5XZ" secondAttribute="bottom" constant="20" symbolic="YES" id="bYI-GE-WeO"/>
+                                    <constraint firstItem="gxB-k9-O2j" firstAttribute="trailing" secondItem="x4f-do-xjH" secondAttribute="trailing" id="cjB-nZ-5P2"/>
+                                    <constraint firstItem="aQ3-Oe-uf1" firstAttribute="leading" secondItem="gxB-k9-O2j" secondAttribute="leading" id="dxP-bl-XRP"/>
+                                    <constraint firstAttribute="trailing" secondItem="PpF-ya-wVm" secondAttribute="trailing" id="i0g-N0-lzZ"/>
+                                    <constraint firstItem="PpF-ya-wVm" firstAttribute="leading" secondItem="5nh-d0-b9S" secondAttribute="leading" id="jly-ub-rDU"/>
+                                    <constraint firstItem="x4f-do-xjH" firstAttribute="top" secondItem="gxB-k9-O2j" secondAttribute="bottom" id="mim-Fm-Pcw"/>
+                                    <constraint firstItem="PpF-ya-wVm" firstAttribute="trailing" secondItem="bRE-aF-JxC" secondAttribute="trailing" id="sse-OX-tTV"/>
+                                    <constraint firstItem="4Uf-pf-I3O" firstAttribute="leading" secondItem="YgZ-rq-Qny" secondAttribute="leading" id="tKy-TL-vJV"/>
+                                    <constraint firstItem="FdY-Mz-5XZ" firstAttribute="height" secondItem="YgZ-rq-Qny" secondAttribute="height" id="vCC-2J-gLB"/>
+                                    <constraint firstItem="vrE-9Q-BaB" firstAttribute="leading" secondItem="4Uf-pf-I3O" secondAttribute="leading" id="yir-CT-Chf"/>
+                                </constraints>
+                            </scrollView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xdA-PW-cAQ">
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                                <items>
+                                    <barButtonItem title="Search" id="pwl-fX-5RC">
+                                        <connections>
+                                            <action selector="search:" destination="BYZ-38-t0r" id="b9u-6n-MCI"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="5nh-d0-b9S" secondAttribute="trailing" id="JnU-5Y-9DO"/>
+                            <constraint firstItem="xdA-PW-cAQ" firstAttribute="top" secondItem="5nh-d0-b9S" secondAttribute="bottom" id="Ohw-ay-tRI"/>
+                            <constraint firstItem="5nh-d0-b9S" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="Qtv-XU-sEN"/>
+                            <constraint firstItem="5nh-d0-b9S" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="SrC-j4-0RF"/>
+                            <constraint firstItem="5nh-d0-b9S" firstAttribute="leading" secondItem="xdA-PW-cAQ" secondAttribute="leading" id="a06-ag-aYd"/>
+                            <constraint firstItem="5nh-d0-b9S" firstAttribute="trailing" secondItem="xdA-PW-cAQ" secondAttribute="trailing" id="asx-21-vUo"/>
+                            <constraint firstItem="xdA-PW-cAQ" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="bcU-wr-9tK"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="allTitleSearchBar" destination="gxB-k9-O2j" id="XRS-gf-CDo"/>
+                        <outlet property="allURLSearchBar" destination="CUM-5d-3cB" id="a9R-sf-AyW"/>
+                        <outlet property="allWordsSearchBar" destination="PpF-ya-wVm" id="rll-yT-70y"/>
+                        <outlet property="endDatePicker" destination="FdY-Mz-5XZ" id="zl2-Rj-k8u"/>
+                        <outlet property="filetypeSearchBar" destination="4Uf-pf-I3O" id="WCn-gS-s4x"/>
+                        <outlet property="mostTitleSearchBar" destination="x4f-do-xjH" id="P9c-0V-wA4"/>
+                        <outlet property="mostURLSearchBar" destination="aQ3-Oe-uf1" id="yEb-QU-SgT"/>
+                        <outlet property="mostWordsSearchBar" destination="bRE-aF-JxC" id="ec9-9O-qv3"/>
+                        <outlet property="siteSearchBar" destination="vrE-9Q-BaB" id="95y-Ud-mjM"/>
+                        <outlet property="startDatePicker" destination="YgZ-rq-Qny" id="Rfp-pk-be6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="354"/>
+        </scene>
+        <!--Result View Controller-->
+        <scene sceneID="0Ip-XV-zV1">
+            <objects>
+                <viewController storyboardIdentifier="ResultViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Elf-4X-CEQ" customClass="ResultViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Wok-AV-N7m"/>
+                        <viewControllerLayoutGuide type="bottom" id="DL7-qM-QQO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="o7Z-B0-iT7">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X7L-Jm-UEC">
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                                <items>
+                                    <barButtonItem title="Back" id="fek-g6-SjT">
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="presentation" id="5aR-SV-Vwy"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <webView contentMode="scaleToFill" restorationIdentifier="Main.storyboard" translatesAutoresizingMaskIntoConstraints="NO" id="diM-aY-mFG">
+                                <rect key="frame" x="0.0" y="28" width="600" height="528"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="X7L-Jm-UEC" firstAttribute="leading" secondItem="o7Z-B0-iT7" secondAttribute="leadingMargin" constant="-20" id="2Kg-du-fHx"/>
+                            <constraint firstItem="diM-aY-mFG" firstAttribute="top" secondItem="Wok-AV-N7m" secondAttribute="bottom" constant="8" id="4ma-M8-2JL"/>
+                            <constraint firstItem="DL7-qM-QQO" firstAttribute="top" secondItem="X7L-Jm-UEC" secondAttribute="bottom" id="Lbr-Kc-lwE"/>
+                            <constraint firstItem="X7L-Jm-UEC" firstAttribute="top" secondItem="diM-aY-mFG" secondAttribute="bottom" id="P3h-vF-V0T"/>
+                            <constraint firstItem="X7L-Jm-UEC" firstAttribute="top" secondItem="diM-aY-mFG" secondAttribute="bottom" id="RQW-3I-JLc"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="X7L-Jm-UEC" secondAttribute="trailing" constant="-20" id="WhM-vM-5pc"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="diM-aY-mFG" secondAttribute="trailing" constant="-20" id="kzy-O8-0Eq"/>
+                            <constraint firstItem="diM-aY-mFG" firstAttribute="leading" secondItem="o7Z-B0-iT7" secondAttribute="leadingMargin" constant="-20" id="ynd-kR-AII"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="resultWebView" destination="diM-aY-mFG" id="huZ-h0-dsF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pCd-oa-F1U" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="929" y="353"/>
+        </scene>
+    </scenes>
+</document>
